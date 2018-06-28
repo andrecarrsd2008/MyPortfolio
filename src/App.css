@@ -124,3 +124,7 @@
 .landing-pic {
     margin: auto;
 }
+
+.mdl-card {
+    margin: 15px;
+}

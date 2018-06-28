@@ -12,7 +12,7 @@ class Landing extends Component {
             <Cell col={12}>
             
             <img
-                src="../Assets/Landing.jpg" 
+                src="../assets/Landing.jpg" 
                 alt="my-picture"
                 className="my-picture"
               />
@@ -28,12 +28,12 @@ class Landing extends Component {
 
                {/* LinkedIn */}
                <a href="https://www.linkedin.com/in/andre-carrizales-80896bb5/" rel="noopener noreferrer" target="_blank">
-                 <i className="fa fa-linkedin-square" aria-hdden="true" />
+                 <i className="fa fa-linkedin-square" aria-hidden="true" />
                </a>  
                 
                 {/* GitHub */}
                <a href="https://github.com/andrecarrsd2008" rel="noopener noreferrer" target="_blank">
-                 <i className="fa fa-github-square" aria-hdden="true" />
+                 <i className="fa fa-github-square" aria-hidden="true" />
                </a>  
 
                </div>    

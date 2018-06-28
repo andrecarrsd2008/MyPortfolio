@@ -14,15 +14,16 @@ class Projects extends Component {
             return(
 
             <div className="projects-grid">
-             <Cell col={12}>
+             
              {/*Project 1*/}
              <Card shadow={5} sytle={{minWidth: '450px', margin: 'auto'}}>
                <CardTitle style={{color: '#fff', height: '176px', background:'url(https://www.cygnismedia.com/images/post-images/reasons-why-react-js-is-popular/react-js-logo.jpg) center / cover'}}>React Project #1</CardTitle>
              <CardText>
-                 Lorem  Ipsum is simply a dummy text so dont take it serously. 
+                We used HTML/CSS to create a Login Page. We also used Firebase to create the database to store the login
+                and email. Everything works on this page.. 
              </CardText>
              <CardActions border> 
-               <Button colored>GitHub</Button> 
+               <Button colored><a href="https://andrecarrsd2008.github.io/Project-1/" target="_blank">GitHub</a></Button> 
                
              </CardActions>
              <CardMenu style={{color: '#fff'}}>
@@ -35,10 +36,11 @@ class Projects extends Component {
               <CardTitle style={{color: '#fff', height: '176px', background: 
               'url(https://www.cygnismedia.com/images/post-images/reasons-why-react-js-is-popular/react-js-logo.jpg) center / cover'}}>React Project #2</CardTitle>
             <CardText>
-                Lorem  Ipsum is simply a dummy text so dont take it serously. 
+             For the second project, my group used HTML/CSS for the frontend and login information. We also used Mongoose for the database
+             and a little bit of Handlebars and javascript. 
             </CardText>
             <CardActions border> 
-              <Button colored>GitHub</Button> 
+              <Button colored><a href="https://fitmefitnessapp.herokuapp.com/">GitHub</a></Button> 
               
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -51,17 +53,16 @@ class Projects extends Component {
                <CardTitle style={{color: '#fff', height: '176px', background: 
                'url(https://www.cygnismedia.com/images/post-images/reasons-why-react-js-is-popular/react-js-logo.jpg) center / cover'}}>React Project #3</CardTitle>
              <CardText>
-                 Lorem  Ipsum is simply a dummy text so dont take it serously. 
+                 In Process. 
              </CardText>
              <CardActions border> 
-               <Button colored>GitHub</Button> 
+               <Button colored>In Process</Button> 
               
              </CardActions>
              <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
               </CardMenu>
              </Card>
-             </Cell>
             </div> 
             )
         } else if(this.state.activeTab === 1) {
